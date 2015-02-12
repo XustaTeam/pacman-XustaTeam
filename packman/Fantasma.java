@@ -2,6 +2,8 @@ package pacman;
 
 import java.util.Random;
 
+//Pacman -> XustaTeam
+
 /**
  * Classe: Fanstasma
  * Descripció: Aquesta classe representa un fantasma al joc del Pacman

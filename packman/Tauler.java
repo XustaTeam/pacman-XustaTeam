@@ -1,5 +1,7 @@
 package pacman;
 
+//Pacman -> XustaTeam
+
 /**
  * Classe: Tauler
  * Descripció: Aquesta classe representa un tauler pel joc del Pacman

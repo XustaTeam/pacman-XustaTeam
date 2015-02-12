@@ -1,5 +1,7 @@
 package pacman;
 
+//Pacman -> XustaTeam
+
 /**
  * Classe: Jugador
  * Descripció: Aquesta classe representa el protagonista del joc Pacman
