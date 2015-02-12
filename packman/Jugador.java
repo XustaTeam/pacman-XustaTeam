@@ -1,7 +1,5 @@
 package pacman;
 
-// By XustaTeam no twerk
-
 /**
  * Classe: Jugador
  * Descripció: Aquesta classe representa el protagonista del joc Pacman
