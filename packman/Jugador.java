@@ -1,13 +1,15 @@
 package pacman;
 
+// By XustaTeam no twerk
+
 /**
  * Classe: Jugador
- * DescripciÛ: Aquesta classe representa el protagonista del joc Pacman
+ * Descripci√≥: Aquesta classe representa el protagonista del joc Pacman
  */
 
 public class Jugador {
 
-    /** Variables propies del protagonista per la posiciÛ i direcciÛ */
+    /** Variables propies del protagonista per la posici√≥ i direcci√≥ */
     protected int posicioX;
     protected int posicioY;
     protected int direccio;
@@ -19,10 +21,10 @@ public class Jugador {
     protected static final int DIRECCIO_DRETA = 3;
 
     /**
-     * Constructor que rep tota la informaciÛ sobre el jugador
-     * @param posicioX PosiciÛ X inicial del jugador
-     * @param posicioY PosiciÛ Y inicial del jugador
-     * @param direccio DirecciÛ inicial del jugador 
+     * Constructor que rep tota la informaci√≥ sobre el jugador
+     * @param posicioX Posici√≥ X inicial del jugador
+     * @param posicioY Posici√≥ Y inicial del jugador
+     * @param direccio Direcci√≥ inicial del jugador 
      */
     public Jugador(int posicioX, int posicioY, int direccio) {
         this.posicioX = posicioX;
@@ -31,14 +33,14 @@ public class Jugador {
     }
 
     /**
-     * MËtode que indica al jugador que es mogui. Per aixÚ se li passen com 
-     * par‡metre les caselles del tauler
+     * M√®tode que indica al jugador que es mogui. Per aix√≤ se li passen com 
+     * par√†metre les caselles del tauler
      * @param caselles Les caselles del tauler
      * @param teclaPolsada Tecla polsada per l'usuari final
      */
     public void moute(Casella[][] caselles, String teclaPolsada) {
 
-        // Modifica la direcciÛ si s'ha polsat una de les tecles de canvi de direcciÛ
+        // Modifica la direcci√≥ si s'ha polsat una de les tecles de canvi de direcci√≥
         if(teclaPolsada.equals("W") || teclaPolsada.equals("w")) {
             //que vagi amunt
         }
@@ -63,50 +65,50 @@ public class Jugador {
 
 
     /**
-     * Comprova si la posiciÛ del jugador coincideix amb la de un altre donat
-     * @param un altre Jugador amb el que comparar la posiciÛ
+     * Comprova si la posici√≥ del jugador coincideix amb la de un altre donat
+     * @param un altre Jugador amb el que comparar la posici√≥
      * @return true si coincideixen, false si no.
      */
     
 	//igual que als fantasmes	
 
     /**
-     * Comprova si la posiciÛ d'aquest jugador coincideix amb una donada
-     * @param x PosiciÛ x donada
-     * @param y PosiciÛ y donada
+     * Comprova si la posici√≥ d'aquest jugador coincideix amb una donada
+     * @param x Posici√≥ x donada
+     * @param y Posici√≥ y donada
      * @return true si coincideixen, false si no
      */
     
 	//igual que als fantasmes
 
     /**
-     * Retorna la posiciÛ x del jugador
-     * @return La posiciÛ x del jugador
+     * Retorna la posici√≥ x del jugador
+     * @return La posici√≥ x del jugador
      */
     
     /**
-     * Retorna la posiciÛ y del jugador
-     * @return La posiciÛ y del jugador
+     * Retorna la posici√≥ y del jugador
+     * @return La posici√≥ y del jugador
      */
     
     /**
-     * Estableix la posiciÛ X del jugador
-     * @param posicioX La posiciÛ X
+     * Estableix la posici√≥ X del jugador
+     * @param posicioX La posici√≥ X
      */
     
     /**
-     * Estableix la posiciÛ Y del jugador
-     * @param posicioY La posiciÛ Y
+     * Estableix la posici√≥ Y del jugador
+     * @param posicioY La posici√≥ Y
      */
     
     /**
-     * Estableix la direcciÛ del jugador
-     * @param direccio La direcciÛ
+     * Estableix la direcci√≥ del jugador
+     * @param direccio La direcci√≥
      */
     
     /**
-     * Retorna la direcciÛ actual del jugador
-     * @return La direcciÛ actual del jugador
+     * Retorna la direcci√≥ actual del jugador
+     * @return La direcci√≥ actual del jugador
      */
     
 }
